@@ -1,7 +1,7 @@
 import React from "react";
 import "./basket.css";
 
-const Basket = ({ item, deleteCard }) => {
+const Basket = ({}) => {
   const itemsFromStorage = JSON.parse(localStorage.getItem("cart")) || [];
 
   return (

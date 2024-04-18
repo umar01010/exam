@@ -31,4 +31,35 @@
   text-align: center;
 }
 
+@media screen and (max-width: 580px) {
+  .text_block {
+    width: 400px;
+    height: 62px;
+  }
 
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text_block {
+    width: 330px;
+    height: 50px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .text_block {
+    width: 280px;
+    height: 50px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

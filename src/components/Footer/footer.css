@@ -12,7 +12,7 @@
 }
 
 .footer_logo {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .footer_text {
@@ -25,3 +25,20 @@
   text-align: left;
 }
 
+@media screen and (max-width: 750px) {
+  .footer_items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .footer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .footer_text {
+    font-size: 16px;
+  }
+}

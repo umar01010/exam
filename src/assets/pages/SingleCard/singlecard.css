@@ -23,9 +23,6 @@
   padding-top: 5px;
   text-align: center;
   width: 500px;
-  /* white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; */
   padding-top: 77px;
 }
 
@@ -41,7 +38,6 @@
   font-size: 17px;
   font-family: Inter;
   width: 500px;
-  /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
   color: rgb(71, 71, 71);
@@ -67,3 +63,43 @@
   padding-top: 20px;
 }
 
+@media screen and (max-width: 950px) {
+  .single_img {
+    width: 250px;
+    height: 320px;
+    padding: 0px;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .single_card {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .tagline_text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .single_title {
+    font-size: 20px;
+    font-weight: 900;
+    width: auto;
+  }
+
+  .single_discription {
+    font-size: 15px;
+    width: auto;
+  }
+
+  .single_card_prices {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}

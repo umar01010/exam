@@ -57,3 +57,65 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 580px) {
+  .email_input {
+    width: 400px;
+    height: 46px;
+  }
+
+  .email_follow {
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 148px;
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .email_input {
+    width: 300px;
+    height: 46px;
+  }
+
+  .email_follow {
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 99px;
+    top: 25px;
+  }
+
+  .email_title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .email_title {
+    font-size: 19px;
+  }
+}

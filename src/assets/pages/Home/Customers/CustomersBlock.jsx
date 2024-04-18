@@ -1,8 +1,11 @@
 import React from "react";
 import "./customersblock.css";
 import CustomersCard from "../CustomersCard/CustomersCard";
+
+// Images
 import Photo1 from "../../../images/Enshteyn.jpg";
 import Stars from "../../../images/Vector.png";
+import Wolf from "../../../images/Wolf.png"
 
 const CustomersBlock = () => {
   return (
@@ -12,8 +15,20 @@ const CustomersBlock = () => {
 
         <div className="customers_cards">
           <CustomersCard
-            name={"Umar"}
+            name={"Wolf"}
+            logo={Wolf}
+            stars={Stars}
+            text={"Great product, highly recommended!"}
+          />
+          <CustomersCard
+            name={"Einshteyn"}
             logo={Photo1}
+            stars={Stars}
+            text={"Great product, highly recommended!"}
+          />
+          <CustomersCard
+            name={"Wolf"}
+            logo={Wolf}
             stars={Stars}
             text={"Great product, highly recommended!"}
           />
@@ -24,20 +39,8 @@ const CustomersBlock = () => {
             text={"Great product, highly recommended!"}
           />
           <CustomersCard
-            name={"Umar"}
-            logo={Photo1}
-            stars={Stars}
-            text={"Great product, highly recommended!"}
-          />
-          <CustomersCard
-            name={"Umar"}
-            logo={Photo1}
-            stars={Stars}
-            text={"Great product, highly recommended!"}
-          />
-          <CustomersCard
-            name={"Umar"}
-            logo={Photo1}
+            name={"Wolf"}
+            logo={Wolf}
             stars={Stars}
             text={"Great product, highly recommended!"}
           />
