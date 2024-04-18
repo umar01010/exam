@@ -13,14 +13,14 @@
 }
 
 .swiper-slide img {
-  width: 1100px;
+  width: 1000;
   height: 450px;
 }
 
 .swiper {
-    margin-top: 30px;
-    border: 2px solid gray;
-    padding: 10px;
+  margin-top: 30px;
+  border: 2px solid gray;
+  padding: 10px;
 }
 
 .swiper-pagination-bullet {
@@ -29,7 +29,7 @@
   background: rgb(19, 19, 26);
   opacity: 0.5;
   margin: 0 5px;
-  transition: .5s linear;
+  transition: 0.5s linear;
 }
 
 .swiper-pagination-bullet-active {
@@ -38,5 +38,5 @@
   height: 8px;
   background: #000;
   border-radius: 5px;
-  transition: .5s linear;
+  transition: 0.5s linear;
 }

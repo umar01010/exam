@@ -1,15 +1,12 @@
 import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
-import { useCart } from "../../assets/pages/Context/CardContext"; // Импортируем контекст
 
 // Images
 import Logo from "../../assets/images/Frame.png";
 import Basket from "../../assets/images/shopping-cart.png";
 
 const Header = () => {
-  const { addToCart } = useCart(); 
-
   return (
     <header>
       <div className="container">
@@ -38,7 +35,7 @@ const Header = () => {
               <div className="header_button">
                 <button>
                   <img src={Basket} alt="Basket" />
-                  Add to cards ({addToCart})
+                  Add to cards
                 </button>
               </div>
             </Link>
