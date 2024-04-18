@@ -1,0 +1,61 @@
+.customers {
+    margin-top: 30px;
+}
+
+.cus_card {
+  width: 350px;
+  height: 175px;
+  border-radius: 6px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.cus_card_hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cus_card_hdr_right {
+  height: 12px;
+}
+
+.cus_card_hdr_left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.cus_card_hdr_left_name {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cus_card_hdr_left_logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.cus_card_text {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 20px;
+  width: 320px;
+}
+
+.customers_cards {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    overflow: scroll;
+}

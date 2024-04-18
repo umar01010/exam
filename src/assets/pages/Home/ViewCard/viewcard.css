@@ -1,0 +1,103 @@
+.Viewcard {
+  width: 330px;
+  height: 480px;
+  padding: 15px;
+  cursor: pointer;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 6px;
+}
+
+.Viewcard img {
+  width: 250px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.View_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 24px;
+}
+
+.item_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 270px;
+  height: 30px;
+}
+
+.item_description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 220px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.item_title {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 14px;
+}
+
+.item_price {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Buttons */
+
+.card_btns {
+  display: flex;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.add {
+  width: 132px;
+  height: 34px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  border: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.save {
+  width: 132px;
+  height: 34px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,30 @@
+.view_header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.view_header_back {
+  width: 40px;
+  transform: rotate(180deg);
+}
+
+.view_back {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.view_header_title {
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 700;
+}

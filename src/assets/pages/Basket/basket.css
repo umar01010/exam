@@ -1,0 +1,71 @@
+.basket_block {
+  margin-top: 10px;
+}
+
+.basket_tag_text {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-top: 30px;
+}
+
+.basket_card_img {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.basket_card_title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 7px;
+}
+
+.basket_card {
+  width: 650px;
+  height: 250px;
+  border: 1px solid rgb(119, 119, 119);
+  margin-top: 30px;
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+  border-radius: 20px;
+}
+
+.basket_card_price {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(255, 0, 0, 0.774);
+  padding-top: 30px;
+}
+
+.basket_card_id {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+  padding-top: 10px;
+}
+
+.basket_delete {
+    width: 130px;
+    height: 33px;
+    background-color: red;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
